@@ -7,5 +7,7 @@
 3. Pastikan port 3002 tidak sedang digunakan 
 4. Untuk menjalankannya gunakan command 
     "npm run dev"
+5. Untuk menjalankan test gunakan command
+    "npm test"
 
 
