@@ -1,0 +1,297 @@
+{
+	"info": {
+		"_postman_id": "18c26eeb-7c46-4746-9c0c-800e30dd4a78",
+		"name": "Final Project DAYA Kelompok 2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Generate Teller From JSON",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3002/teller/generateJSON",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3002",
+					"path": [
+						"teller",
+						"generateJSON"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login Teller",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nik",
+							"value": "98979601",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3002/teller/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3002",
+					"path": [
+						"teller",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Balance",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiIxMTExMDEiLCJuaWsiOiI5ODk3OTYwMSIsIm5hbWUiOiJMYXRpZmFoIFNyaSBBeXUiLCJwaG90byI6Imh0dHBzOi8vaW1hZ2Uud2ludWRmLmNvbS92Mi9pbWFnZS9kR0Y1Ykc5eUxuTjNhV1owWDNOamNtVmxibDh5WHpFMU1qRTFPVEUwTWpsZk1EWTMvc2NyZWVuLTIuanBnP2Zha2V1cmw9MSZ0eXBlPS5qcGciLCJpYXQiOjE2Mzc3NjM4NTZ9.354FE-dYqJaklD1pmfv89iTZDRCtioSIpLTrA-g2Md8",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3002/vault/balance",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3002",
+					"path": [
+						"vault",
+						"balance"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Vault History",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiIxMTExMDEiLCJuaWsiOiI5ODk3OTYwMSIsIm5hbWUiOiJMYXRpZmFoIFNyaSBBeXUiLCJwaG90byI6Imh0dHBzOi8vaW1hZ2Uud2ludWRmLmNvbS92Mi9pbWFnZS9kR0Y1Ykc5eUxuTjNhV1owWDNOamNtVmxibDh5WHpFMU1qRTFPVEUwTWpsZk1EWTMvc2NyZWVuLTIuanBnP2Zha2V1cmw9MSZ0eXBlPS5qcGciLCJpYXQiOjE2Mzc3NjM4NTZ9.354FE-dYqJaklD1pmfv89iTZDRCtioSIpLTrA-g2Md8",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3002/vault",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3002",
+					"path": [
+						"vault"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST HISTORY",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiIxMTExMDEiLCJuaWsiOiI5ODk3OTYwMSIsIm5hbWUiOiJMYXRpZmFoIFNyaSBBeXUiLCJwaG90byI6Imh0dHBzOi8vaW1hZ2Uud2ludWRmLmNvbS92Mi9pbWFnZS9kR0Y1Ykc5eUxuTjNhV1owWDNOamNtVmxibDh5WHpFMU1qRTFPVEUwTWpsZk1EWTMvc2NyZWVuLTIuanBnP2Zha2V1cmw9MSZ0eXBlPS5qcGciLCJpYXQiOjE2Mzc3NjUzNDJ9.e3E6rS41IrzYKfHe9Ow9MiS0inTIw5_RTsVvb55Hl3Y",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3002/vault/619e50dbdc7265808cd86112",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3002",
+					"path": [
+						"vault",
+						"619e50dbdc7265808cd86112"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST Register CO",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiIxMTExMDEiLCJuaWsiOiI5ODk3OTYwMSIsIm5hbWUiOiJMYXRpZmFoIFNyaSBBeXUiLCJwaG90byI6Imh0dHBzOi8vaW1hZ2Uud2ludWRmLmNvbS92Mi9pbWFnZS9kR0Y1Ykc5eUxuTjNhV1owWDNOamNtVmxibDh5WHpFMU1qRTFPVEUwTWpsZk1EWTMvc2NyZWVuLTIuanBnP2Zha2V1cmw9MSZ0eXBlPS5qcGciLCJpYXQiOjE2Mzc3NjUzNDJ9.e3E6rS41IrzYKfHe9Ow9MiS0inTIw5_RTsVvb55Hl3Y",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"_id\": \"222204\",\r\n    \"teller\": \"111101\",\r\n    \"nik\" : \"99887704\",\r\n    \"name\": \"Kenon blu\",\r\n    \"region\": \"manado\",\r\n    \"password\": \"123\"\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3002/communityofficer/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3002",
+					"path": [
+						"communityofficer",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST Login CO",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nik",
+							"value": "99887704",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3002/communityofficer/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3002",
+					"path": [
+						"communityofficer",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET All Detail CO",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiIxMTExMDEiLCJuaWsiOiI5ODk3OTYwMSIsIm5hbWUiOiJMYXRpZmFoIFNyaSBBeXUiLCJwaG90byI6Imh0dHBzOi8vaW1hZ2Uud2ludWRmLmNvbS92Mi9pbWFnZS9kR0Y1Ykc5eUxuTjNhV1owWDNOamNtVmxibDh5WHpFMU1qRTFPVEUwTWpsZk1EWTMvc2NyZWVuLTIuanBnP2Zha2V1cmw9MSZ0eXBlPS5qcGciLCJpYXQiOjE2Mzc3NjU2NzZ9._nlzxfm79AlfhR5wr1aQC71ljmEH_M79jwDckSVdddY",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3002/communityofficer/detail",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3002",
+					"path": [
+						"communityofficer",
+						"detail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Detail CO by CO_ID",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiIxMTExMDEiLCJuaWsiOiI5ODk3OTYwMSIsIm5hbWUiOiJMYXRpZmFoIFNyaSBBeXUiLCJwaG90byI6Imh0dHBzOi8vaW1hZ2Uud2ludWRmLmNvbS92Mi9pbWFnZS9kR0Y1Ykc5eUxuTjNhV1owWDNOamNtVmxibDh5WHpFMU1qRTFPVEUwTWpsZk1EWTMvc2NyZWVuLTIuanBnP2Zha2V1cmw9MSZ0eXBlPS5qcGciLCJpYXQiOjE2Mzc3NjUzNDJ9.e3E6rS41IrzYKfHe9Ow9MiS0inTIw5_RTsVvb55Hl3Y",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "http://localhost:3002/communityofficer/detail/222201",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3002",
+					"path": [
+						"communityofficer",
+						"detail",
+						"222201"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET All CO",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiIxMTExMDEiLCJuaWsiOiI5ODk3OTYwMSIsIm5hbWUiOiJMYXRpZmFoIFNyaSBBeXUiLCJwaG90byI6Imh0dHBzOi8vaW1hZ2Uud2ludWRmLmNvbS92Mi9pbWFnZS9kR0Y1Ykc5eUxuTjNhV1owWDNOamNtVmxibDh5WHpFMU1qRTFPVEUwTWpsZk1EWTMvc2NyZWVuLTIuanBnP2Zha2V1cmw9MSZ0eXBlPS5qcGciLCJpYXQiOjE2Mzc3NjU2NzZ9._nlzxfm79AlfhR5wr1aQC71ljmEH_M79jwDckSVdddY",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3002/communityofficer/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3002",
+					"path": [
+						"communityofficer",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

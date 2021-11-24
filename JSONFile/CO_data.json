@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "222201",
+    "teller": "111101",
+    "nik" : "99887701",
+    "name": "Taylor Swifted",
+    "region": "Bogor",
+    "password": "123"
+  },
+  {
+    "_id": "222202",
+    "teller": "111101",
+    "nik" : "99887702",
+    "name": "Gigi Hadidah",
+    "region": "Jakarta Timur",
+    "password": "123"
+  },
+  {
+    "_id": "222203",
+    "teller": "111101",
+    "nik" : "99887703",
+    "name": "Kendal Jateng",
+    "region": "Padang",
+    "password": "123"
+  }
+]

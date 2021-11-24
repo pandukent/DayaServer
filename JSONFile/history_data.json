@@ -1,0 +1,79 @@
+[
+  {
+    "teller": "123001",
+    "date": "2021-09-14",
+    "type": "Payment",
+    "nominal": "20000000",
+    "balance": "10000000000"
+  },
+  {
+    "teller": "123001",
+    "date": "2021-09-15",
+    "type": "Loan",
+    "nominal": "80000000",
+    "balance": "9920000000"
+  },
+  {
+    "teller": "123001",
+    "date": "2021-09-21",
+    "type": "Loan",
+    "nominal": "120000000",
+    "balance": "9800000000"
+  },
+  {
+    "teller": "123001",
+    "date": "2021-09-29",
+    "type": "Payment",
+    "nominal": "80000000",
+    "balance": "9880000000"
+  },
+  {
+    "teller": "123001",
+    "date": "2021-10-05",
+    "type": "Payment",
+    "nominal": "120000000",
+    "balance": "10000000000"
+  },
+  {
+    "teller": "123001",
+    "date": "2021-10-06",
+    "type": "Loan",
+    "nominal": "200000000",
+    "balance": "9800000000"
+  },
+  {
+    "teller": "123001",
+    "date": "2021-10-07",
+    "type": "Payment",
+    "nominal": "200000000",
+    "balance": "10000000000"
+  },
+  {
+    "teller": "123001",
+    "date": "2021-10-11",
+    "type": "Loan",
+    "nominal": "180000000",
+    "balance": "9920000000"
+  },
+  {
+    "teller": "123001",
+    "date": "2021-10-11",
+    "type": "Payment",
+    "nominal": "180000000",
+    "balance": "10000000000"
+  },
+  {
+    "teller": "123001",
+    "date": "2021-11-02",
+    "type": "Loan",
+    "nominal": "210000000",
+    "balance": "9790000000"
+  },
+  {
+    "teller": "123001",
+    "date": "2021-11-09",
+    "type": "Loan",
+    "nominal": "333000000",
+    "balance": "9457000000"
+  }
+]

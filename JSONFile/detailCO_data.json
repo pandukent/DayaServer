@@ -1,0 +1,51 @@
+[
+  {
+    "communityOfficer": "222201",
+    "date": "2021-11-02",
+    "type": "Loan",
+    "nominal": "210000000",
+    "status": "Done"
+  },
+  {
+    "communityOfficer": "222202",
+    "date": "2021-11-09",
+    "type": "Loan",
+    "nominal": "333000000",
+    "status": "Done"
+  },
+  {
+    "communityOfficer": "222201",
+    "date": "2021-11-10",
+    "type": "Payment",
+    "nominal": "210000000",
+    "status": "Process"
+  },
+  {
+    "communityOfficer": "222222",
+    "date": "2021-11-15",
+    "type": "Payment",
+    "nominal": "333000000",
+    "status": "Process"
+  },
+  {
+    "communityOfficer": "222201",
+    "date": "2021-11-22",
+    "type": "Loan",
+    "nominal": "135000000",
+    "status": "Process"
+  },
+  {
+    "communityOfficer": "222202",
+    "date": "2021-11-23",
+    "type": "Loan",
+    "nominal": "222000000",
+    "status": "Process"
+  },
+  {
+    "communityOfficer": "222203",
+    "date": "2021-11-24",
+    "type": "Payment",
+    "nominal": "111000000",
+    "status": "Process"
+  }
+]
